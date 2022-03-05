@@ -1,0 +1,158 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombrePersona",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_edadPersona",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_IDPersona",
+						"type": "string"
+					}
+				],
+				"name": "Representar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "VerCandidatos",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "VerResultados",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ganador",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_candidato",
+						"type": "string"
+					}
+				],
+				"name": "verVotos",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_candidato",
+						"type": "string"
+					}
+				],
+				"name": "votar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Votaciones/Votaciones.sol": "votacion"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Votaciones/Votaciones.sol": {
+			"keccak256": "0xf82717627c7be0b7995f5212a992987a8a0886fe6641b4ce337e8a8c310d85ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://22e2d63df2039d3f195bd3328c06b4c9ecc9f233700f60542833ec216d00d358",
+				"dweb:/ipfs/QmczMKidq7z8smKMq4ZxA6jZqgq45wuxMGndBhf6BTH2ka"
+			]
+		}
+	},
+	"version": 1
+}
